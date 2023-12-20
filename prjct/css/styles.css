@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Spongebob';
+    src: url("font/font1.ttf");
+}
+
+h2 {
+    font-family: Spongebob;
+    font-size: xx-large;
+    color: aqua;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    font-style: italic;
+    font-size: small;
+}
+
+.divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box {
+    margin-left: 75px;
+    margin-right: 75px;
+
+    text-align: left;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: aqua;
+}
+
+.card {
+    font-weight: bold;
+
+    width: fit-content;
+    padding: 0.75%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.legendtext {
+    background-color: aqua;
+    font-weight: bold;
+
+    color: white;
+}
+
+.qtext {
+    font-weight: bold;
+}
+
+button {
+    background-color: aqua;
+    border-style: none;
+
+    padding: 0.75%;
+
+    color: white;
+}
+
+button:hover {
+    background-color: aquamarine;
+}

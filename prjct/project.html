@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+    <title>Spongebob Quiz</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/form.js"></script>
+
+    <div class="container">
+        <h2>Which Spongebob character are you?</h2>
+
+        <div class="divider"></div>
+        <div class="divider"></div>
+
+        <form method="get">
+            <fieldset class="box">
+                <legend class="legendtext">Personal Information</legend>
+                    <br><label for="firstName" class="qtext">First Name</label><div id="hint1" class="footer"></div>
+                    <input type="text" id="firstName"><br><br>
+
+                    <label for="lastName" class="qtext">Last Name</label><div id="hint2" class="footer"></div>
+                    <input type="text" id="lastName"><br><br>
+
+                    <label for="phoneNumber" class="qtext">Phone Number</label><div id="hint3" class="footer"></div>
+                    <input type="text" id="phoneNumber"><br><br>
+
+                    <label for="email" class="qtext">Email</label><div id="hint4" class="footer"></div>
+                    <input type="text" id="email"><br><br>
+
+                    <label for="website" class="qtext">Website</label><div id="hint5" class="footer"></div>
+                    <input type="text" id="website"><br><br>
+            </fieldset>
+
+            <div class="divider"></div>
+
+            <fieldset class="box">
+                <legend class="legendtext">Quiz Questions</legend>
+
+                <p class="qtext">Which color do you most prefer?</p>
+                    <input type="radio" id="q1o1" name="q1r" value="1">
+                    <label for="q1o1">yellow</label><br>
+
+                    <input type="radio" id="q1o2" name="q1r" value="2">
+                    <label for="q1o2">pink</label><br>
+
+                    <input type="radio" id="q1o3" name="q1r" value="3">
+                    <label for="q1o3">teal</label><br>
+
+                    <input type="radio" id="q1o4" name="q1r" value="4">
+                    <label for="q1o4">purple</label><br><br>
+
+                <p class="qtext">Which activity would you most prefer?</p>
+                    <input type="radio" id="q2o1" name="q2r" value="1">
+                    <label for="q2o1">exploring outside</label><br>
+
+                    <input type="radio" id="q2o2" name="q2r" value="2">
+                    <label for="q2o2">relaxing at home</label><br>
+
+                    <input type="radio" id="q2o3" name="q2r" value="3">
+                    <label for="q2o3">playing an instrument</label><br>
+
+                    <input type="radio" id="q2o4" name="q2r" value="4">
+                    <label for="q2o4">learning something new</label><br><br>
+
+                <p class="qtext">Which genre of music do you most prefer?</p>
+                    <input type="radio" id="q3o1" name="q3r" value="1">
+                    <label for="q3o1">pop</label><br>
+
+                    <input type="radio" id="q3o2" name="q3r" value="2">
+                    <label for="q3o2">experimental</label><br>
+
+                    <input type="radio" id="q3o3" name="q3r" value="3">
+                    <label for="q3o3">classical</label><br>
+
+                    <input type="radio" id="q3o4" name="q3r" value="4">
+                    <label for="q3o4">country</label><br><br>
+            </fieldset>
+        </form>
+    
+        <div class="divider"></div>
+
+        <button id="submit" class="button">submit</button>
+
+        <div class="divider"></div>
+
+        <div id="card" class="card"></div>
+
+        <p class="footer">Created by Karissa Keehan</p>
+
+    </div>
+
+</html>
